@@ -4,9 +4,9 @@
     "variables":
     {
 
-        "default": "#c3c7bf",
+        "default": "#d6d6d6",
         "default_background": "#2e3436",
-        "white": "#ffffff",
+        "highlight": "#aaaaa0",
         "amber": "#ccb000",
         "danger": "#ff6666",
         "nightsky": "#0066cc"
@@ -15,7 +15,7 @@
     {
         "foreground": "var(default)",
         "background": "var(default_background)",
-        "caret": "var(white)",
+        "caret": "white",
         "selection": "color(var(nightsky) a(0.25))",
         "selection_border_width": "0",
         "inactive_selection": "color(var(nightsky) a(0.10))",
@@ -32,17 +32,17 @@
     [
         {
             "scope": "comment",
-            "foreground": "color(var(white) a(0.3))",
+            "foreground": "color(var(default) a(0.35))",
             "font_style": "italic"
         },
         {
             "scope": "string.docstring",
-            "foreground": "color(var(white) a(0.3))",
+            "foreground": "color(var(default) a(0.35))",
             "font_style": "italic"
         },
         {
             "scope": "keyword, constant.language, storage.type, storage.modifier",
-            "foreground": "var(white)",
+            "foreground": "var(highlight)",
         },
         {
             "scope": "keyword.other.documentation",
@@ -64,7 +64,7 @@
         {
           "name": "rainbowth0",
           "scope": "rainbowth0",
-          "foreground": "white",
+          "foreground": "highlight",
           "background": "#2e3435"
         },
         {
@@ -112,7 +112,7 @@
         {
           "name": "rainbowth0",
           "scope": "rainbowth0-lineHighlight",
-          "foreground": "white",
+          "foreground": "highlight",
           "background": "#2e3435"
         },
         {
