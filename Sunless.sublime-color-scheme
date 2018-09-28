@@ -1,0 +1,161 @@
+{
+    "name": "Sunless",
+    "author": "archydragon",
+    "variables":
+    {
+
+        "default": "#c3c7bf",
+        "default_background": "#2e3436",
+        "white": "#ffffff",
+        "amber": "#ccb000",
+        "danger": "#ff6666",
+        "nightsky": "#0066cc"
+    },
+    "globals":
+    {
+        "foreground": "var(default)",
+        "background": "var(default_background)",
+        "caret": "var(white)",
+        "selection": "color(var(nightsky) a(0.25))",
+        "selection_border_width": "0",
+        "inactive_selection": "color(var(nightsky) a(0.10))",
+        "line_highlight": "color(var(nightsky) a(0.30))",
+        "highlight": "var(nightsky)",
+        "find_highlight": "var(nightsky)",
+        "find_highlight_foreground": "var(default)",
+        "find_highlight_border": "var(nightsky)",
+        "guide": "color(var(default) a(0.25))",
+        "accent": "var(amber)",
+        "misspelling": "var(danger)"
+    },
+    "rules":
+    [
+        {
+            "scope": "comment",
+            "foreground": "color(var(white) a(0.3))",
+            "font_style": "italic"
+        },
+        {
+            "scope": "string.docstring",
+            "foreground": "color(var(white) a(0.3))",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword, constant.language, storage.type, storage.modifier",
+            "foreground": "var(white)",
+        },
+        {
+            "scope": "keyword.other.documentation",
+            "foreground": "color(var(amber) a(0.6))"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "var(amber)"
+        },
+        {
+            "scope": "string, punctuation.definition.string",
+            "foreground": "var(amber)"
+        },
+        {
+            "scope": "constant.character",
+            "foreground": "color(var(amber) a(0.6))"
+        },
+        // rainbowth
+        {
+          "name": "rainbowth0",
+          "scope": "rainbowth0",
+          "foreground": "white",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth1",
+          "scope": "rainbowth1",
+          "foreground": "#cdbe70",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth2",
+          "scope": "rainbowth2",
+          "foreground": "#7ccd7c",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth3",
+          "scope": "rainbowth3",
+          "foreground": "#63b8ff",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth4",
+          "scope": "rainbowth4",
+          "foreground": "#cd69c9",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth5",
+          "scope": "rainbowth5",
+          "foreground": "#ff6347",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth6",
+          "scope": "rainbowth6",
+          "foreground": "#008b45",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth7",
+          "scope": "rainbowth7",
+          "foreground": "#8b6914",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth0",
+          "scope": "rainbowth0-lineHighlight",
+          "foreground": "white",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth1",
+          "scope": "rainbowth1-lineHighlight",
+          "foreground": "#cdbe70",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth2",
+          "scope": "rainbowth2-lineHighlight",
+          "foreground": "#7ccd7c",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth3",
+          "scope": "rainbowth3-lineHighlight",
+          "foreground": "#63b8ff",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth4",
+          "scope": "rainbowth4-lineHighlight",
+          "foreground": "#cd69c9",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth5",
+          "scope": "rainbowth5-lineHighlight",
+          "foreground": "#ff6347",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth6",
+          "scope": "rainbowth6-lineHighlight",
+          "foreground": "#008b45",
+          "background": "#2e3435"
+        },
+        {
+          "name": "rainbowth7",
+          "scope": "rainbowth7-lineHighlight",
+          "foreground": "#8b6914",
+          "background": "#2e3435"
+        },
+    ]
+}
