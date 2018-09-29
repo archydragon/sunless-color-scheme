@@ -43,7 +43,11 @@
             "font_style": "italic"
         },
         {
-            "scope": "keyword, constant.language, storage.type, storage.modifier",
+            "scope": "keyword, keyword.control, constant.language, storage.type, storage.modifier",
+            "foreground": "var(highlight)",
+        },
+        {
+            "scope": "support.function, support.function.match",
             "foreground": "var(highlight)",
         },
         {
@@ -75,11 +79,20 @@
             "scope": "meta.diff.range",
             "foreground": "color(var(amber) a(0.6))"
         },
+        // language specific - clojure
         {
-            "scope": "support.function",
-            "foreground": "var(amber)"
+            "scope": "support.function.namespace.clojure",
+            "foreground": "var(highlight)",
         },
-        // rainbowth
+        {
+            "scope": "keyword.operator.symbolargs.clojure",
+            "foreground": "var(default)"
+        },
+        {
+            "scope": "storage.type.function.type",
+            "foreground": "var(default)"
+        },
+        // plugin specific - rainbowth
         {
             "name": "rainbowth0",
             "scope": "rainbowth0",
