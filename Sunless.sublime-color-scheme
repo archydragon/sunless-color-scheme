@@ -79,6 +79,11 @@
             "scope": "meta.diff.range",
             "foreground": "color(var(amber) a(0.6))"
         },
+        // regular expressions
+        {
+            "scope": "keyword.control.anchors, keyword.other.any, keyword.operator.quantifier",
+            "foreground": "color(var(amber) a(0.6))"
+        },
         // language specific - clojure
         {
             "scope": "support.function.namespace.clojure",
