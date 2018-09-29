@@ -86,7 +86,7 @@
         },
         // language specific - clojure
         {
-            "scope": "support.function.namespace.clojure",
+            "scope": "support.function.namespace.clojure, storage.type.function.type.clojure",
             "foreground": "var(highlight)",
         },
         {
