@@ -9,7 +9,9 @@
         "highlight": "#aaaaa0",
         "amber": "#ccb000",
         "danger": "#ff6666",
-        "nightsky": "#0066cc"
+        "nightsky": "#0066cc",
+        "positive": "#b6dfb6",
+        "negative": "#efb6b6"
     },
     "globals":
     {
@@ -60,102 +62,119 @@
             "scope": "constant.character",
             "foreground": "color(var(amber) a(0.6))"
         },
+        // diff
+        {
+            "scope": "markup.inserted",
+            "foreground": "var(positive)"
+        },
+        {
+            "scope": "markup.deleted",
+            "foreground": "var(negative)"
+        },
+        {
+            "scope": "meta.diff.range",
+            "foreground": "color(var(amber) a(0.6))"
+        },
+        {
+            "scope": "support.function",
+            "foreground": "var(amber)"
+        },
         // rainbowth
         {
-          "name": "rainbowth0",
-          "scope": "rainbowth0",
-          "foreground": "highlight",
-          "background": "#2e3435"
+            "name": "rainbowth0",
+            "scope": "rainbowth0",
+            "foreground": "highlight",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth1",
-          "scope": "rainbowth1",
-          "foreground": "#cdbe70",
-          "background": "#2e3435"
+            "name": "rainbowth1",
+            "scope": "rainbowth1",
+            "foreground": "#cdbe70",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth2",
-          "scope": "rainbowth2",
-          "foreground": "#7ccd7c",
-          "background": "#2e3435"
+            "name": "rainbowth2",
+            "scope": "rainbowth2",
+            "foreground": "#7ccd7c",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth3",
-          "scope": "rainbowth3",
-          "foreground": "#63b8ff",
-          "background": "#2e3435"
+            "name": "rainbowth3",
+            "scope": "rainbowth3",
+            "foreground": "#63b8ff",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth4",
-          "scope": "rainbowth4",
-          "foreground": "#cd69c9",
-          "background": "#2e3435"
+            "name": "rainbowth4",
+            "scope": "rainbowth4",
+            "foreground": "#cd69c9",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth5",
-          "scope": "rainbowth5",
-          "foreground": "#ff6347",
-          "background": "#2e3435"
+            "name": "rainbowth5",
+            "scope": "rainbowth5",
+            "foreground": "#ff6347",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth6",
-          "scope": "rainbowth6",
-          "foreground": "#008b45",
-          "background": "#2e3435"
+            "name": "rainbowth6",
+            "scope": "rainbowth6",
+            "foreground": "#008b45",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth7",
-          "scope": "rainbowth7",
-          "foreground": "#8b6914",
-          "background": "#2e3435"
+            "name": "rainbowth7",
+            "scope": "rainbowth7",
+            "foreground": "#8b6914",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth0",
-          "scope": "rainbowth0-lineHighlight",
-          "foreground": "highlight",
-          "background": "#2e3435"
+            "name": "rainbowth0",
+            "scope": "rainbowth0-lineHighlight",
+            "foreground": "highlight",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth1",
-          "scope": "rainbowth1-lineHighlight",
-          "foreground": "#cdbe70",
-          "background": "#2e3435"
+            "name": "rainbowth1",
+            "scope": "rainbowth1-lineHighlight",
+            "foreground": "#cdbe70",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth2",
-          "scope": "rainbowth2-lineHighlight",
-          "foreground": "#7ccd7c",
-          "background": "#2e3435"
+            "name": "rainbowth2",
+            "scope": "rainbowth2-lineHighlight",
+            "foreground": "#7ccd7c",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth3",
-          "scope": "rainbowth3-lineHighlight",
-          "foreground": "#63b8ff",
-          "background": "#2e3435"
+            "name": "rainbowth3",
+            "scope": "rainbowth3-lineHighlight",
+            "foreground": "#63b8ff",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth4",
-          "scope": "rainbowth4-lineHighlight",
-          "foreground": "#cd69c9",
-          "background": "#2e3435"
+            "name": "rainbowth4",
+            "scope": "rainbowth4-lineHighlight",
+            "foreground": "#cd69c9",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth5",
-          "scope": "rainbowth5-lineHighlight",
-          "foreground": "#ff6347",
-          "background": "#2e3435"
+            "name": "rainbowth5",
+            "scope": "rainbowth5-lineHighlight",
+            "foreground": "#ff6347",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth6",
-          "scope": "rainbowth6-lineHighlight",
-          "foreground": "#008b45",
-          "background": "#2e3435"
+            "name": "rainbowth6",
+            "scope": "rainbowth6-lineHighlight",
+            "foreground": "#008b45",
+            "background": "#2e3435"
         },
         {
-          "name": "rainbowth7",
-          "scope": "rainbowth7-lineHighlight",
-          "foreground": "#8b6914",
-          "background": "#2e3435"
+            "name": "rainbowth7",
+            "scope": "rainbowth7-lineHighlight",
+            "foreground": "#8b6914",
+            "background": "#2e3435"
         },
     ]
 }
