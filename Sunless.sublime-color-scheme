@@ -22,7 +22,7 @@
         "selection_border_width": "0",
         "inactive_selection": "color(var(nightsky) a(0.10))",
         "gutter_foreground": "color(var(highlight) a(0.20))",
-        "line_highlight": "color(var(nightsky) a(0.30))",
+        "line_highlight": "color(var(nightsky) a(0.20))",
         "highlight": "var(nightsky)",
         "find_highlight": "var(nightsky)",
         "find_highlight_foreground": "var(default)",
